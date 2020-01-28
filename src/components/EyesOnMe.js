@@ -13,7 +13,7 @@ export default class EyesOnMe extends Component {
     render() {
         return (
             <button onFocus={this.consoleLogF} onBlur={this.consoleLogB}>
-
+                Enter Password
             </button>
         )
     }
